@@ -1,0 +1,8 @@
+#include <cs50.h>
+#include <stdio.h>
+
+Int main (void)
+{
+  Float price = get_float("whats the price?\n");
+  Printf("your total is %f\n" ,price * 1.0675);
+}
